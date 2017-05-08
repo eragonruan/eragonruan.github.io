@@ -1,6 +1,6 @@
 ## Slade Blog
 
-### [View my Blog &rarr;](slade-ruan.me)
+### [View my Blog &rarr;](http://slade-ruan.me)
 
 ![](http://slade-ruan.me/img/blog-desktop.PNG)
 
