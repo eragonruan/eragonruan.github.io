@@ -16,7 +16,7 @@ tags:
 
 # 简单入门
 
-- **Fork项目**  
+- **Fork项目** 
 首先到[我的github](https://github.com/eragonruan/eragonruan.github.io)上将该项目fork到自己账户
 ![img1](http://slade-ruan.me/img/in-post/tutorial/in-post-01.png)
 
