@@ -16,21 +16,18 @@ tags:
 
 # 简单入门
 
-- **Fork项目**
-
+- **Fork项目**  
 首先到[我的github](https://github.com/eragonruan/eragonruan.github.io)上将该项目fork到自己账户
 ![img1](http://slade-ruan.me/img/in-post/tutorial/in-post-01.png)
 
 - **修改repository名称**
-
 到自己fork过来的项目主页上，点击seeting
 ![img2](http://slade-ruan.me/img/in-post/tutorial/in-post-02.png)
 然后将项目名称改为自己的github名字+github.io
 比如你叫banjin，那么项目名称就应该修改为banjin.github.io, 然后点击rename即可
 ![img3](http://slade-ruan.me/img/in-post/tutorial/in-post-03.png)
 
-- **主页已上线**
-
+- **主页已上线**  
 到这一步，这个主页已经可以访问了,假设你是banjin
 那么到https://banjin.github.io这个网址即可访问到现在的主页
 如果404，请稍等两分钟再试。
@@ -40,14 +37,12 @@ tags:
 # 中级教程
 这一部分教你使用git在本地写博客，增删改查之类的工作~
 
-- **安装git**
-
+- **安装git**  
 先到[git官网](https://git-scm.com/download/win)下载git for windows
 当然愿意用linux系统也问题不大
 下载完安装即可
 
-- **配置git**
-
+- **配置git**  
 先简单配置一下git
 ```shell
 git config --global user.name "banjin"
@@ -55,16 +50,14 @@ git config --global user.email banjin@gmail.com
 ```
 这里名字和邮箱改成自己的即可
 
-- **将repository clone 到本地**
-
+- **将repository clone 到本地**  
 首先切换到你要放这个项目的文件夹，然后
 ```shell
 git clone https://github.com/banjin/banjin.github.io.git
 ```
 注意修改为自己的名字
 
-- **连接到远程仓库**
-
+- **连接到远程仓库**  
 ```shell
 git init
 git add .
@@ -74,15 +67,12 @@ git push -u origin master
 ```
 中间会提醒你输入你的github账号，按照提示输入账号密码即可
 
-- **修改一些配置**
-
+- **修改一些配置**  
 打开根目录下的_config.yml文件，这个文件存放网站的整体配置
 ![img4](http://slade-ruan.me/img/in-post/tutorial/in-post-04.png)
 ![img5](http://slade-ruan.me/img/in-post/tutorial/in-post-05.png)
 
-
-- **进行第一次提交**
-
+- **进行第一次提交**  
 修改完网站整体配置之后，可以进行第一次提交了
 ```shell
 git add .
@@ -91,8 +81,7 @@ git push
 ```
 提交完成，在打开自己的主页看看，是不是发现不一样了~
 
-- **写第一篇博客**
-
+- **写第一篇博客**  
 打开根目录下的_post文件夹，随便复制一个markdown文件
 按照命名规则修改名字yy-mm-dd-name.markdown
 ![img6](http://slade-ruan.me/img/in-post/tutorial/in-post-06.png)
