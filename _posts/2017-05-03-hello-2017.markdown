@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "Hello 2017"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2017-05-03 14:48:00
+author:     "slade"
+header-img: "img/post-bg-001.jpg"
+catalog: true
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
+## 前言
+
+说了很久要弄一个个人博客，到今天终于有空弄了一下，模板是github上fork的黄玄大神，在此表示感谢。
+
+
+## 正文
+博客上主要打算记载一些读研期间碰到的技术问题，以及解放方法。既留做自己保存，也与众多的朋友们分享。如果有各位感兴趣的，不要犹豫请联系我。
+
+
+---
+
+
+## 后记
+
+To be a better man
+
+—— Slade 于 2017.05
+
+
