@@ -1,15 +1,13 @@
 ---
 layout:     post
-title:      "GTX1070 tensorflow配置"
-subtitle:   " \"ubuntu14.04+gtx1070\""
-description: "ubuntu14.04 gtx1070 gtx1080 tensorflow deep learning install 配置 安装"
-date:       2017-05-04 21:06:00
+title:      "paper reading list"
+description: "semantic segmentation, scene text detection, scene text recgonition"
+date:       2017-10-13 13:06:00
 author:     "slade"
 header-img: "img/post-bg-002.jpg"
 catalog: true
 tags:
-    - ubuntu
-    - tensorflow
+    - paper
 ---
 
 # 语义分割
