@@ -35,13 +35,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-
-leancloud_visitors:
-  enable: true
-  app_id: 6jmCHTV5JPmyRv1wPXShR9L5-gzGzoHsz
-  app_key: n7QhATOX9HliUaPyNrWHxm5R
-
-
 sitemap:
   path: sitemap.xml
 # Markdown settings
