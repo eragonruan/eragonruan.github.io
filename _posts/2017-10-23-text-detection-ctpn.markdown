@@ -78,6 +78,6 @@ reimplement的github[地址](https://github.com/eragonruan/text-detection-ctpn)
 - 这个repo没有实现文章中提到的side refinement部分。
 - 以身份证检测做了个例子，但是模型是可以应用到各种水平文本检测的应用中的。
 - 部分检测的结果如下所示：
-![img5](http://slade-ruan.me/img/in-post/ctpn/in-post-1022-05.png)
-![img6](http://slade-ruan.me/img/in-post/ctpn/in-post-1022-06.png)
+![img5](http://slade-ruan.me/img/in-post/ctpn/in-post-1022-05.jpg)
+![img6](http://slade-ruan.me/img/in-post/ctpn/in-post-1022-06.jpg)
 
