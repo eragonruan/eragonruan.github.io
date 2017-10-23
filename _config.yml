@@ -36,7 +36,7 @@ gems:
   - jekyll-sitemap
 
 
-leancloud_visitors:
+leancloud:
   enable: true
   app_id: 6jmCHTV5JPmyRv1wPXShR9L5-gzGzoHsz
   app_key: n7QhATOX9HliUaPyNrWHxm5R

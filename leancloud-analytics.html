@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-{% include head.html %}
-{% seo %}
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="">
 <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
 <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
 <script>AV.initialize("n9H2t3VFwwMPqC0rSYfvlJuu-gzGzoHsz", "DkeWUHsd9YIYIsnKRg6vw1Lk");</script>
-<!--<script>console.log("Error: " + error.code + " " + error.message);</script>-->
 <script>
     function showHitCount(Counter) {
-        console.log("i was called");
         var query = new AV.Query(Counter);
         var entries = [];
         var $visitors = $(".leancloud_visitors");
@@ -97,9 +88,6 @@
     }
     $(function() {
         var Counter = AV.Object.extend("Counter");
-        console.log('this is a test');
-        console.log('this is a test-add',$('.leancloud_visitors'));
-        console.log('this is a test-show',$('.post-link'));
         if ($('.leancloud_visitors').length == 1) {
             // in post.html, so add 1 to hit counts
             addCount(Counter);
@@ -109,19 +97,3 @@
         }
     });
 </script>
-
-
-    {% include nav.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-
-<!-- Image to hack wechat -->
-<img src="/img/icon_wechat.png" width="0" height="0" />
-<!-- Migrate from head to bottom, no longer block render and still work -->
-
-</body>
-
-</html>
