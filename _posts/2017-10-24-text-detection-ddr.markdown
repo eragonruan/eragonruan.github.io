@@ -47,13 +47,13 @@ tags:
 ## loss function
 
 总的loss如下：  
-![img4](http://slade-ruan.me/img/in-post/ddr/in-post-1024-04.png)
-分类使用的loss是hinge loss，这个没什么好介绍的  
 ![img5](http://slade-ruan.me/img/in-post/ddr/in-post-1024-05.png)
-回归的时候作者用了一个scale&shift的模块。想法很简单，就是做一下归一化，因为要直接回归出当前像素点到四个角点的真实距离的话，这个值的变化是非常恐怖的，所以要进行一下归一化。具体来说就是这样  
+分类使用的loss是hinge loss，这个没什么好介绍的  
 ![img6](http://slade-ruan.me/img/in-post/ddr/in-post-1024-06.png)
-然后回归用的loss是L1 loss，这个对离群点不敏感，很faster rcnn中用的是一样的，具体如下：  
+回归的时候作者用了一个scale&shift的模块。想法很简单，就是做一下归一化，因为要直接回归出当前像素点到四个角点的真实距离的话，这个值的变化是非常恐怖的，所以要进行一下归一化。具体来说就是这样  
 ![img7](http://slade-ruan.me/img/in-post/ddr/in-post-1024-07.png)
+然后回归用的loss是L1 loss，这个对离群点不敏感，很faster rcnn中用的是一样的，具体如下：  
+![img8](http://slade-ruan.me/img/in-post/ddr/in-post-1024-08.png)
 
 ## Recalled NMS
 
@@ -61,6 +61,8 @@ Recalled nms有三步：
 - 首先做一次标准的nms
 - 然后把第一步中得到的框映射到未做nms之前和这个框IoU最大的那个框。
 - 最后合并的奥的所有框。
+下图分别是三步的结果：  
+![img9](http://slade-ruan.me/img/in-post/ddr/in-post-1024-09.png)
 
 ------
 

@@ -55,6 +55,17 @@ tags:
 然后回归用的loss是L1 loss，这个对离群点不敏感，很faster rcnn中用的是一样的，具体如下：  
 ![img7](http://slade-ruan.me/img/in-post/ddr/in-post-1024-07.png)
 
+## Recalled NMS
 
+Recalled nms有三步：  
+- 首先做一次标准的nms
+- 然后把第一步中得到的框映射到未做nms之前和这个框IoU最大的那个框。
+- 最后合并的奥的所有框。
+
+------
+
+# 总结
+
+作者创新性的提出了直接回归的这个方法，将文字检测变成一个语义分割+回归的方法。（也就是fcn based）这种方法对于倾斜文本的检测是有效的。除此之外整体pipeline非常简洁。不过有一点就是文章中test的阶段，用了一个multi-scale的sliding window的策略，计算量大大增加。当总体来说，这个方法还是非常优雅的，结果很很赞。
 
 
