@@ -1,6 +1,8 @@
 ---
-title: project
-layout: default
+layout: page
+title: "Project"
+description: "scene text detection & semantic segmentation & object detection"
+header-img: "img/about-bg.jpg"
 ---
 
 # 场景文本检测

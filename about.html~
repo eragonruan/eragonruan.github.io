@@ -20,7 +20,7 @@ header-img: "img/about-bg.jpg"
 
     <p>诸位好，我是<strong>阮少辉</strong>，码农，现在上海交通大学攻读硕士学位，专业是模式识别与智能系统。</p>
     
-    <p>图像处理，计算机视觉，深度学习都有涉猎。看上去什么都会一点，但是什么又都不精通，摊手。</p>
+    <p>图像处理，计算机视觉，深度学习都有涉猎。目前主要在做物体检测，场景文本检测和语义分割。具体的项目可以参见[project](http://slade-ruan.me/portfolio/)</p>
 </div>
 
 <!-- English Version -->
@@ -30,7 +30,7 @@ header-img: "img/about-bg.jpg"
 
     <p>Hi, I am <strong>Shaohui Ruan</strong>，you can call me <strong>Slade</strong>. I'm a coder. Currently, I'm studing for my master degree at Shanghai Jiaotong university. Majored in pattern recognition and intelligent system.</p>
     
-    <p>My research focus mainly on image processing, computer vision and deep learning.</p>
+    <p>My research focus mainly on image processing, computer vision and deep learning. Currently, I'm working on scene text detection, semantic segmentation and object detection</p>
 </div>
 
 <!-- Handle Language Change -->
