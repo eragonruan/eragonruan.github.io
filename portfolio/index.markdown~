@@ -1,6 +1,8 @@
 ---
-title: project
-layout: default
+layout: page
+title: "Project"
+description: "scene text detection & semantic segmentation & object detection"
+header-img: "img/about-bg.jpg"
 ---
 
 # 场景文本检测
@@ -8,9 +10,10 @@ layout: default
 ## CTPN
 - 关于场景文本检测部分，目前我们开源了一份CTPN的tensorflow代码。这个项目复现了ECCV2016年的一篇文章。原始的论文地址在[arxiv](https://arxiv.org/pdf/1609.03605.pdf)也可以找到。我们复现的[github地址](https://github.com/eragonruan/text-detection-ctpn)可以在这里找到。
 - 论文和代码的解读可以参见[博客](http://slade-ruan.me/2017/10/22/text-detection-ctpn/)
+- 尽管CTPN只能检测水平的文本，但是算法可以检测非常长的文本行，因此这个算法个人认为还是非常有价值的。
 - 一些检测结果如下:(以身份证检测为例)
 <img src="http://slade-ruan.me/portfolio/img/ctpn001.jpg" width=480 height=320 /><img src="http://slade-ruan.me/portfolio/img/ctpn002.jpg" width=480 height=320 />
-- 尽管CTPN只能检测水平的文本，但是算法可以检测非常长的文本行，因此这个算法个人认为还是非常有价值的。
+
 ------
 ## TDN_SJTU
 - 后来，我们在中科院的Deep direct regression for multi-oriented scene text detection[arxiv](https://arxiv.org/pdf/1703.08289.pdf)的启发下，做了一些工作。并参加了[ICDAR robust reading竞赛](http://rrc.cvc.uab.es/?ch=4&com=evaluation&task=1&gtv=1)
