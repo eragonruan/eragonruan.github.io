@@ -8,34 +8,62 @@
 
 <url>
   <loc>http://slade-ruan.me/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/about/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/portfolio/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/tags/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://slade-ruan.me/2017/10/24/text-detection-ddr/</loc>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://slade-ruan.me/2017/10/22/text-detection-ctpn/</loc>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://slade-ruan.me/2017/10/13/paper_reading/</loc>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://slade-ruan.me/2017/09/19/dual-system-switch/</loc>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/2017/05/08/tutorial/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/2017/05/04/tensorflow/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/2017/05/04/test-markdown/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://slade-ruan.me/2017/05/03/hello-2017/</loc>
-  <lastmod>2017-05-08T04:28:22+00:00</lastmod>
+  <lastmod>2017-11-02T02:00:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
