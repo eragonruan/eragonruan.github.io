@@ -21,7 +21,7 @@ description: "Stay hungry, Stay foolish."
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
 	{% if site.leancloud.enable %}
-                <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+                <span id="{{ post.url | prepend: site.baseurl }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
          	<span class="post-meta-divider">|</span>
          	<span class="post-meta-item-text"> 阅读量:  </span>
          	<span class="leancloud-visitors-count"></span>
