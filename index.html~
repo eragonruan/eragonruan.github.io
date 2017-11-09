@@ -8,6 +8,13 @@ description: "Stay hungry, Stay foolish."
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
+	    {% if site.leancloud.enable %}
+                <span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
+         	<span class="post-meta-divider">|</span>
+         	<span class="post-meta-item-text"> 阅读量:  </span>
+         	<span class="leancloud-visitors-count"></span>
+        	</span>
+    	    {% endif %}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
