@@ -85,22 +85,21 @@ layout: default
                 </ul>
 
 
-                {% if site.duoshuo_username %}
-                <!-- 网易评论框 start -->
-                <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-		<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+                <div id="gitmentContainer"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 		<script>
-		var cloudTieConfig = {
-  			url: document.location.href, 
-  			sourceId: "",
-  			productKey: "a9c673bdf1ab423d96af6186c6f30608",
-  			target: "cloud-tie-wrapper"
-		};
-		var yunManualLoad = true;
-		Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+		var gitment = new Gitment({
+    			owner: 'eragonruan',
+    			repo: 'eragonruan.github.io',
+    			oauth: {
+        			client_id: '416bfcfa1f518f977d92',
+        			client_secret: 'f8ea0d023bc1ad34999dca95dd929149e7ccf467',
+    			},
+		});
+		gitment.render('gitmentContainer');
 		</script>
-                <!-- 网易评论框 end -->
-                {% endif %}
+
             </div>  
 
     <!-- Side Catalog Container -->
