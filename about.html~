@@ -18,8 +18,9 @@ header-img: "img/about-bg.jpg"
     <blockquote><p>Stay hungry，<br>
     Stay foolish</p></blockquote>
 
-    <p>我是<strong>阮少辉</strong>，现在上海交大读硕士。主要的研究兴趣在计算机视觉和机器学习。目前主要在做场景文字识别（STR）。具体的项目可以参见<a href="http://slade-ruan.me/portfolio/">Project</a></p>
+    <p>诸位好，我是<strong>阮少辉</strong>，码农，现在上海交通大学攻读硕士学位，专业是模式识别与智能系统。</p>
     
+    <p>图像处理，计算机视觉，深度学习都有涉猎。目前主要在做物体检测，场景文本检测和语义分割。具体的项目可以参见<a href="http://slade-ruan.me/portfolio/">Project</a></p>
 </div>
 
 <!-- English Version -->
@@ -27,9 +28,9 @@ header-img: "img/about-bg.jpg"
     <blockquote><p>Stay hungry <br>
     Stay foolish.</p></blockquote>
 
-    <p>Hi, I am <strong>Shaohui Ruan</strong>，you can call me <strong>Slade</strong>. Currently, I'm studing for my master degree at Shanghai Jiaotong university. Majored in pattern recognition and intelligent system.</p>
+    <p>Hi, I am <strong>Shaohui Ruan</strong>，you can call me <strong>Slade</strong>. I'm a coder. Currently, I'm studing for my master degree at Shanghai Jiaotong university. Majored in pattern recognition and intelligent system.</p>
     
-    <p>My research focus mainly on computer vision and machine learning. Currently, I'm working on scene text recognition & detection. See <a href="http://slade-ruan.me/portfolio/">here</a> for more detail.</p>
+    <p>My research focus mainly on image processing, computer vision and deep learning. Currently, I'm working on scene text detection, semantic segmentation and object detection</p>
 </div>
 
 <!-- Handle Language Change -->
