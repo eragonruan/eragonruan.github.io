@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "Spatial Transformer Networks 空间变换网络"
+description: "Spatial Transformer Networks 空间变换网络"
+date:       2017-11-14 21:06:00
+author:     "slade"
+header-img: "img/post-bg-002.jpg"
+catalog: true
+tags:
+    - paper
+    - deep learning
+---
+
+最近准备读一下牛津VGG组的Spatial Transformer Networks这篇文章，[arxiv地址](https://arxiv.org/abs/1506.02025), 记在这当个笔记～
+
+# 简介
+
+CNN目前通过max pooling 这种方式，只能在一定程度上提供空间不变性，尤其是偏底层的特征层，空间不变性是比较差的。因为这篇paper提出了一个Spatial Transformer Networks（空间变化网络）来赋予CNN空间不变性，使得网络对于位移，投影变换，仿射变换等等这些都不敏感。而且这个网络可以嵌入到任何一个现有的网络中，并且不需要额外的标注。在一定程度上能够提升网络的性能。
+no implement
