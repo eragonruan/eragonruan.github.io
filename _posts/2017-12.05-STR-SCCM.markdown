@@ -1,0 +1,55 @@
+---
+layout:     post
+title:      "论文笔记--Scene text recognition with sliding convolutional character models"
+subtitle:   "Scene text recognition with sliding convolutional character models"
+description:	"场景文本识别, STR, OCR, Scene text recognition with sliding convolutional character models"
+date:       2017-12-05 12:52:00
+author:     "slade"
+header-img: "img/post-bg-004.jpg"
+catalog: true
+tags:
+    - paper
+    - deep learning
+---
+
+# 简介
+- 没有用现在流行的CNN-RNN的结构，而是采用了滑窗的做法，模拟人类的阅读习惯。
+- loss还是用的CTC loss，可以认为是用滑窗来部分代替了RNN。
+- 相比CNN-RNN模型，要好训练很多。
+- 加入了character model提升精度。
+- 模型很小，识别速度非常快。模型仅0.41M
+
+------
+
+# 方法
+![img1](http://slade-ruan.me/img/in-post/STR-SCCM/in-post-1205-01.png)
+整体网络结构如图1所示。一共由3部分组成，sliding window layer, classification layer, transcription layer. sliding window layer从原始图像中提取特征，可以是CNN，当然也可以是手工设计的特征。classification layer预测输入特征的label distribution。transcription layer输出最终结果。这个模型其实和CRNN和RNN模型是相通的，差别就在于滑动窗口的大小。  
+
+## convolutional character model
+![img2](http://slade-ruan.me/img/in-post/STR-SCCM/in-post-1205-02.png)
+- 图2是整个卷积网络的结构，这是一个15层的模型。
+- 输入用的灰度图
+- 滑窗大小选取是32x32
+- 卷积核就是常用的3x3，stride是1
+- 逐渐增加卷积的channel，从50到400
+- max pooling，2x2
+- 有两个全连接层，分别有900,200个hidden unit
+- 最后接一个softmax分类，输出37/7357（英/中）
+- 为了加速训练，还加了batch normalization层
+
+## Transcription
+- transcription layer作用就是将之前每个滑窗的预测结果转换为序列标签（sequence of character labels）
+- 可以这么假设：每一个窗口就代表了一个timestep(参照RNN)
+- 使用CTC layer作为transcription layer。
+- 他们用了一个加速的算法来实现CTC mapping function
+
+## 训练
+- 图片高度放缩到32pixel，宽度统一到256pixel（通过padding），要是宽度超256，直接resize，这种情况比较少
+- 滑窗每次移动4个像素
+- 测试速度0.16s/sample
+### 中文训练
+- 中文训练数据集也是用的vgg组那个方法生成的。长度1-15个字，用了60种中文字体，包括7185常用中文简化字+171个符号（包括52英文字母和10个数字）
+- 中文滑窗大小32x40，图片高度32，宽度512，滑窗每次移动8像素
+
+
+
